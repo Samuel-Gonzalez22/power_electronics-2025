@@ -13,4 +13,4 @@ Students:
 # Content
 |     Module     |       Theme                  |     Link       |
 |----------------|------------------------------|----------------|
-| 1              |Fundamentals and Power Diodes |Guide           |
+| 1              |Fundamentals and Power Diodes |Guide: https://github.com/Samuel-Gonzalez22/power_electronics-2025.git           |
