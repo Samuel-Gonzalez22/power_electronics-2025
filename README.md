@@ -13,4 +13,4 @@ Students:
 # Content
 |     Module     |       Theme                  |     Link       |
 |----------------|------------------------------|----------------|
-| 1              |Power Diodes and Rectifiers   |[Guide: ](https://github.com/Samuel-Gonzalez22/power_electronics-2025/tree/686ce0525ee862ffb344709ae54a6ee9088e1a36/Module%201)           |
+| 1              |Power Diodes and Rectifiers   |[Guide](https://github.com/Samuel-Gonzalez22/power_electronics-2025/tree/686ce0525ee862ffb344709ae54a6ee9088e1a36/Module%201)           |
