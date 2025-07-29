@@ -1,6 +1,6 @@
 LTspice 24.1.9 for Windows
 Circuit: C:\Users\lenov\Documents\GitHub\power_electronics-2025\Module 1\Simulations\Simulations Repository\Circuit three-phase\Draft3.net
-Start Time: Mon Jul 28 22:03:53 2025
+Start Time: Mon Jul 28 22:31:57 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -8,7 +8,7 @@ temp = 27
 method = trap
 C1: Increased Cpar to 2.2e-10
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.255 seconds.
+Total elapsed time: 0.290 seconds.
 
 Files loaded:
 C:\Users\lenov\Documents\GitHub\power_electronics-2025\Module 1\Simulations\Simulations Repository\Circuit three-phase\Draft3.net
