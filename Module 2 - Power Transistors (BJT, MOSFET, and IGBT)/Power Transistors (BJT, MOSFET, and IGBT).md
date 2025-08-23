@@ -66,9 +66,9 @@ In this configuration, the collector is the common terminal for both the input a
 
 Advantages
 
-- Alta impedancia de entrada y baja impedancia de salida: ideal para acoplar una fuente de señal débil con una carga de baja resistencia.
-- Estabilidad en la señal: el voltaje de salida sigue al de entrada, proporcionando un seguidor de voltaje muy útil en control de potencia.
-- Simplicidad en polarización: más sencillo de polarizar que base común.
+- High input impedance and low output impedance: ideal for coupling a weak signal source with a low resistance load.
+- Signal stability: the output voltage follows the input, providing a very useful voltage follower in power control.
+- Simplicity in polarization: easier to polarize than common base.
 
 
 Disadvantages
