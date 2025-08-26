@@ -82,7 +82,7 @@ The gate receives the input signal, the drainer is used for loading, and the out
 
 
 
-## IGBT power transistors
+## IGBT power transistors.
 
 The IGBT (Insulated Gate Bipolar Transistor) is a hybrid power semiconductor device that combines the characteristics of MOSFETs and BJTs. It has an insulated gate controlled by voltage, which means low control power consumption, and a bipolar conduction region, which allows it to handle high currents and voltages with low voltage drop in the on state. Due to these properties, the IGBT is widely used in inverters, frequency converters, electric traction systems, and renewable energy, being one of the most common power devices in medium and high voltage applications.
 
