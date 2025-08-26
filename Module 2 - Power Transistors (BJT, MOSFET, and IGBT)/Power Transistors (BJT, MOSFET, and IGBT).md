@@ -57,6 +57,28 @@ Common drain configuration
 
 The gate receives the input signal, the drainer is used for loading, and the output is taken from the drainer. This configuration has unity voltage gain and high input impedance.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##IGBT power transistor
+
+
+
+
+
 ## Bibliography
 [1] M. H. Rashid, Power electronics: Devices, circuits, and applications, international edition, 4/E. Pearson, 2014.
 [2] [4]	Redeweb.com. [En línea]. Disponible en: [https://www.redeweb.com/actualidad/mosfet/#:~:text=MOSFET%20de%20potencia&text=Esta%20categor%C3%ADa%20de%20transistores%20ha,energ%C3%ADa%20renovable%20y%20veh%C3%ADculos%20el%C3%A9ctricos.]
