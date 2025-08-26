@@ -43,21 +43,19 @@ In this configuration, the collector is the common terminal for both the input a
 The power MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a voltage-controlled device widely used in power electronics due to its high efficiency and switching speed. Its structure allows large currents to be controlled by a small gate signal, thanks to its high input impedance. In terms of applications, Power supplies, motor controllers, renewable energy systems and electric vehicles [2].
 
 ### Configurations
-There are three main connection configurations for power MOSFETs:
+* There are three main connection configurations for power MOSFETs:
 
-Common source configuration
+* Common source configuration
 
-In this configuration, the gate is controlled by the input signal, and the drain and source are the output terminals. This configuration is the most common and offers high voltage gain.
+* In this configuration, the gate is controlled by the input signal, and the drain and source are the output terminals. This configuration is the most common and offers high voltage gain.
 
-Common gate configuration
+* Common gate configuration
 
-The gate is connected to a current source or ground (in AC), and the input signal is applied to the source. The drain is the output. This configuration is suitable for high-frequency applications.
+* The gate is connected to a current source or ground (in AC), and the input signal is applied to the source. The drain is the output. This configuration is suitable for high-frequency applications.
 
-Common drain configuration
+* Common drain configuration
 
-The gate receives the input signal, the drainer is used for loading, and the output is taken from the drainer. This configuration has unity voltage gain and high input impedance.
-
-
+* The gate receives the input signal, the drainer is used for loading, and the output is taken from the drainer. This configuration has unity voltage gain and high input impedance.
 
 
 
@@ -73,7 +71,11 @@ The gate receives the input signal, the drainer is used for loading, and the out
 
 
 
-##IGBT power transistor
+
+
+## IGBT power transistors
+
+The IGBT (Insulated Gate Bipolar Transistor) is a hybrid power semiconductor device that combines the characteristics of MOSFETs and BJTs. It has an insulated gate controlled by voltage, which means low control power consumption, and a bipolar conduction region, which allows it to handle high currents and voltages with low voltage drop in the on state. Due to these properties, the IGBT is widely used in inverters, frequency converters, electric traction systems, and renewable energy, being one of the most common power devices in medium and high voltage applications.
 
 
 
