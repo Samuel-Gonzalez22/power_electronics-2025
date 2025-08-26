@@ -102,6 +102,45 @@ The IGBT (Insulated Gate Bipolar Transistor) is a hybrid power semiconductor dev
 
 ## Configurations
 
+Depending on their structure and technology, IGBTs are classified as follows:
+
+### First-generation IGBTs (NPT - Non Punch Through)
+
+* Symmetrical construction.
+
+* They withstand voltage in both directions (forward and reverse blocking).
+
+* More thermally robust.
+
+* Used in traction and very high power applications.
+
+### Second-generation IGBTs (PT - Punch Through)
+
+* Add a “buffer” layer that reduces voltage drop and improves speed.
+
+* Only block voltage in one direction.
+
+* Have lower conduction losses.
+
+* More common than NPTs in industrial applications.
+
+### Trench IGBT (Trench Gate IGBT)
+
+* More modern technology.
+
+* Uses trench gates to increase current density and reduce losses.
+
+* Much more efficient at medium frequencies (inverters, drives).
+
+* Very common in industry today.
+
+### Field Stop IGBT (FS-IGBT)
+
+* Improved version of the PT, incorporates a field stop layer.
+
+* Further reduces switching and conduction losses.
+
+* Currently the most widely used in modern converters.
 
 
 
