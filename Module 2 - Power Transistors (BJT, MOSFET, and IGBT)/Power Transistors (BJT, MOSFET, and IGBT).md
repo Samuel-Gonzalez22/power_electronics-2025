@@ -13,6 +13,7 @@ In this section, the corresponding configurations for BJT power transistors were
 * Common emitter configuration
 
 ![Emisor comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/804306eaceb8bfa4e6ee32a0bd8154dd7eb4938d/Module%202%20-%20Power%20Transistors%20(BJT,%20MOSFET,%20and%20IGBT)/Images/Configurations/Emisor%20comun.png)
+
 Figure 1. Common emitter configuration
 
 In this connection, the emitter is located as the reference terminal (usually grounded), while the input signal is applied to the base and the output is obtained at the collector. Its importance lies in that it allows for a high current gain and efficient operation in switching mode (saturation and cutoff), making it ideal for controlling high power loads such as transformers, motors, or DC-DC converters.
@@ -24,6 +25,7 @@ The common emitter configuration is the most used in BJT power transistors becau
 * Common base configuration
 
 ![Base comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/804306eaceb8bfa4e6ee32a0bd8154dd7eb4938d/Module%202%20-%20Power%20Transistors%20(BJT,%20MOSFET,%20and%20IGBT)/Images/Configurations/Base%20comun.png)
+
 Figure 2. Common base configuration
 
 In the common base configuration, the base is connected as a reference for both the input and output signals. The input is applied between the emitter and the base, and the output is obtained between the collector and the base. In this configuration, the collector current is almost directly determined by the emitter current, and the current gain is low. However, the main advantage of this configuration is that it offers greater bandwidth and better performance at high frequencies, compared to the common emitter configuration.
@@ -35,6 +37,7 @@ In the common base configuration, the base is connected as a reference for both 
 * Common collector configuration
 
 ![Colector comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/804306eaceb8bfa4e6ee32a0bd8154dd7eb4938d/Module%202%20-%20Power%20Transistors%20(BJT,%20MOSFET,%20and%20IGBT)/Images/Configurations/Colector%20comun.png)
+
 Figure 3. Common collector configuration
 
 In this configuration, the collector is the common terminal for both the input and the output. The input signal is applied between the base and the collector, and the output is obtained between the emitter and the collector. Due to this arrangement, the output signal is in phase with the input and has a voltage gain close to one (≈1), but with a high current gain.
@@ -49,6 +52,7 @@ There are three main connection configurations for power MOSFETs:
 * Common source configuration
 
 ![Fuente comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/f1cb55f43e9815c0adcb6338a8c188f68d6ed38b/Module%202%20-%20Power%20Transistors%20(BJT%2C%20MOSFET%2C%20and%20IGBT)/Images/Configurations/Fuente%20comun.png)
+
 Figure 4. Common source configuration
 
 The common source configuration in a MOSFET is an amplifier circuit where the input signal is applied to the gate, the output is obtained from the drain, and the source is connected to ground (for an N-channel MOSFET) or to a positive voltage (for a P-channel MOSFET). This configuration is the most common because offers high voltage and current gain.
@@ -56,6 +60,7 @@ The common source configuration in a MOSFET is an amplifier circuit where the in
 * Common gate configuration
 
 ![Puerta comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/f1cb55f43e9815c0adcb6338a8c188f68d6ed38b/Module%202%20-%20Power%20Transistors%20(BJT%2C%20MOSFET%2C%20and%20IGBT)/Images/Configurations/Puerta%20comun.png)
+
 Figure 5. Common gate configuration
 
 In this configuration the input signal is applied to the source terminal and the output is taken from the drain terminal, while the gate is maintained at a constant bias voltage. This configuration is characterized by low input impedance, high output impedance, and moderate voltage gain where the input and output are in phase.
@@ -63,6 +68,7 @@ In this configuration the input signal is applied to the source terminal and the
 * Common drain configuration
 
 ![Drenador comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/f1cb55f43e9815c0adcb6338a8c188f68d6ed38b/Module%202%20-%20Power%20Transistors%20(BJT%2C%20MOSFET%2C%20and%20IGBT)/Images/Configurations/Drenador%20comun.png)
+
 Figure 6. Common drain configuration
 
 This configuration is characterized by having the drain terminal connected to AC ground and the input signal applied to the gate, while the output is taken from the source terminal. This configuration is ideal for buffer applications due to its high input impedance, low output impedance, and a voltage gain close to one, with the input and output signals in phase.
@@ -70,7 +76,7 @@ This configuration is characterized by having the drain terminal connected to AC
 
 
 
-
+![Summary MOSFETs](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/9741f9f0d73775b83719362ce6b21a376ee51530/Module%202%20-%20Power%20Transistors%20(BJT%2C%20MOSFET%2C%20and%20IGBT)/Images/Configurations/Summary%20MOSFETs.png)
 
 Table 1.  Summary of MOSFET Amplifier Characteristics [3]
 
