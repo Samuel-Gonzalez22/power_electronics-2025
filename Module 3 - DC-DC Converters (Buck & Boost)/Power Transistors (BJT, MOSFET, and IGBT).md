@@ -7,7 +7,7 @@ DC-DC converters are composed of inductors, capacitors, diodes, and transistors,
 
 
 ### Configurations
-In this section, the corresponding configurations for BJT power transistors were attached, along with their advantages and disadvantages.
+There are several AC-AC configurations, which we will present below.
 
 * Common emitter configuration
 
