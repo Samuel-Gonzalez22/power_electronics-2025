@@ -1,10 +1,9 @@
-# Power Transistors (BJT, MOSFET and IGBT)
+# DC-DC Converters (Buck & Boost)
 ## Introduction
-A power transistor is a semiconductor device specifically designed to handle high levels of current and voltage while maintaining the ability to switch controlled at high speed. Unlike small-signal transistors, which are optimized to amplify low-level signals, power transistors are built and designed to support and control significant flows of electrical energy. The fundamental distinguishing feature of power transistors is their ability to operate as electronically controlled switches. This means they can quickly toggle between their on and off states, blocking the flow of current by presenting high impedance.
+A DC-DC converter is an electronic device characterized by its ability to alter the voltage of direct current (DC) between different values. This is valuable in many situations, as often different elements within a single electronic device require various voltage levels to operate correctly. Thus, converters have the ability to increase, reduce, or reverse the voltage as required. Unlike an AC-DC converter, which transforms alternating current (AC) from the electrical grid into direct current (DC), the DC-DC converter works exclusively with direct current, modifying its voltage as necessary. DC-DC converters are composed of inductors, capacitors, diodes, and transistors, along with pulse width modulation techniques to achieve efficient energy conversion. In this way, they operate as follows: the duty cycle of the input signal is modulated, and the converter regulates the ratio between the time it is activated and deactivated, allowing the desired output to be controlled [1]. 
 
-## Theoretical Framework
-## BJT Power Transistors
-A BJT power transistor is a bipolar junction semiconductor device designed to operate in applications where control and handling of high levels of current and voltage are required. Its principle of operation is based on the modulation of the collector current through a small current applied to the base, which allows for the amplification of electrical signals or acts as a power switch. In terms of applications, BJT power transistors are used in high-power audio amplifiers, linear and switched power supplies, output stages in motor controllers, lighting systems, and generally in any circuit where it is necessary to handle significant electrical loads [1].
+## Operation and applications
+DC-DC converters are composed of inductors, capacitors, diodes, and transistors, along with pulse width modulation techniques to achieve efficient energy conversion. In this way, they operate as follows: the duty cycle of the input signal is modulated, and the converter regulates the ratio between the time it is activated and deactivated, allowing the desired output to be controlled. It is widely used in power electronics, the renewable energy sector, communication systems, and the automotive industry. [1].
 
 
 ### Configurations
@@ -153,8 +152,8 @@ Depending on their structure and technology, IGBTs are classified as follows:
 
 
 ## Bibliography
-[1] M. H. Rashid, Power electronics: Devices, circuits, and applications, international edition, 4/E. Pearson, 2014.
+[1] Distron, “Convertidor DC-DC: qué es y cómo se aplica”, Distron, 08-jun-2023. [En línea]. Disponible en: https://distron.es/convertidor-dc-dc-funcionamiento-aplicaciones/.
 
-[2] Redeweb.com. [En línea]. Disponible en:[https://www.redeweb.com/actualidad/mosfet/#:~:text=MOSFET%20de%20potencia&text=Esta%20categor%C3%ADa%20de%20transistores%20ha,energ%C3%ADa%20renovable%20y%20veh%C3%ADculos%20el%C3%A9ctricos.]
+[2] M. H. Rashid, Power electronics: Devices, circuits, and applications, international edition, 4/E. Pearson, 2014.
 
 [3] – MOSFET AMPLIFIER CONFIGURATIONS y I. Impedance, “Department of electrical and computer engineering”, Charlotte.edu. [En línea]. Disponible en: https://ece.charlotte.edu/wp-content/uploads/sites/301/2023/05/ECGR3155-EXPERIMENT-8-MOSFET-AMPLIFIERS-CONFIGURATIONS-AND-INPUT-OUTPUT-IMPEDANCES.pdf.
