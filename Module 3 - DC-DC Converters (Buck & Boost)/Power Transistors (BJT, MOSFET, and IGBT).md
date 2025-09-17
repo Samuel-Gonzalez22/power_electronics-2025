@@ -7,7 +7,7 @@ DC-DC converters are composed of inductors, capacitors, diodes, and transistors,
 
 
 ### Configurations
-There are several AC-AC configurations, which we will present below.
+There are several CC-CC configurations, which we will present below.
 
 * Common emitter configuration
 
