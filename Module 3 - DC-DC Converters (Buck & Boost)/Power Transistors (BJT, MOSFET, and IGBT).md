@@ -7,11 +7,23 @@ DC-DC converters are composed of inductors, capacitors, diodes, and transistors,
 
 
 ### Configurations
-There are several CC-CC configurations, which we will present below.
+There are several DC-DC configurations, which we will present below.
 
-* Common emitter configuration
+### Boost with a pure resistive load (R)
 
-![Emisor comun](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/804306eaceb8bfa4e6ee32a0bd8154dd7eb4938d/Module%202%20-%20Power%20Transistors%20(BJT,%20MOSFET,%20and%20IGBT)/Images/Configurations/Emisor%20comun.png)
+* Circuit: DC source + inductor in series → switch and diode → resistive load with capacitor.
+
+* Operation:
+
+ON: The inductor charges from the source, while the load is powered by the capacitor.
+
+OFF: The inductor discharges its energy into the load, adding it to the source, increasing the output voltage.
+
+* Result: The voltage across the load resistor is higher than that of the source.
+
+* Specific feature: Since there is only R, the output current has greater ripple, smoothed by the capacitor.
+
+IMAGENNNN DE ESTO 
 
 Figure 1. Common emitter configuration
 
