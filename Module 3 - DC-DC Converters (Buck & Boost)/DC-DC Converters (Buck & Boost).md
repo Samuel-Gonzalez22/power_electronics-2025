@@ -26,6 +26,7 @@ Figure 1. Buck converter operation
 They allow a higher voltage than the input voltage signal to be obtained at the output. They are useful for raising a voltage, for example, to recharge batteries or to supply devices that require a higher voltage. The basic principle consists of two different states, depending on the switch:
 * When the switch is closed, the coil stores energy from the source, while the load is powered by the capacitor.
 * When the switch is open, the current only passes through the diode and flows through the capacitor and the load.
+
 For the analysis, it is first assumed that the elements do not present losses. They are considered independent of frequency and linear for passive elements, while the transistor and diode are considered ideal with no inductive or capacitive effects. The circuit operation is divided based on the duty cycle of the switching signal (0<t<D) [4].
 
 ![Boost Converter](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/cd9f92f7bea412332b0a0a7750deeebb6759a890/Module%203%20-%20DC-DC%20Converters%20(Buck%20%26%20Boost)/Images-Simulations/Boost_operating.svg.png)
