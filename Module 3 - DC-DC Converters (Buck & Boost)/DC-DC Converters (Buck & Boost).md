@@ -14,7 +14,7 @@ They allow a lower voltage than the input voltage to be obtained at the output. 
 
 $V_{out} = D \cdot V_{in}$ (1)
 
-Where V_{out} is the output voltage, V_{in} is the input voltage of the power supply, and D is the duty cycle, varying between 0≤D≤1. For D= 0, it is considered an open circuit, and for D= 1, a closed circuit.
+Where $V_{out}$ is the output voltage, $V_{in}$ is the input voltage of the power supply, and D is the duty cycle, varying between 0≤D≤1. For D= 0, it is considered an open circuit, and for D= 1, a closed circuit.
 In a buck converter, the duty cycle is modified so that the output voltage remains at the intended level. However, when connecting a load that powers a system, the output voltage is influenced by the effect of that load. One way to regulate the output voltage in response to load variation is to dynamically adjust the duty cycle. The duty cycle is the ratio D whose domain is between 0 and 1, and whose output voltage will never exceed the input voltage. To adjust the duty cycle, a pulse width modulator can be incorporated into the circuit at the switch connected in series to the source. The duty cycle is adjusted with the switching frequency of the PWM [3].
 
 ![Buck Converter](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/cd9f92f7bea412332b0a0a7750deeebb6759a890/Module%203%20-%20DC-DC%20Converters%20(Buck%20%26%20Boost)/Images-Simulations/Buck_operating.svg.png)
