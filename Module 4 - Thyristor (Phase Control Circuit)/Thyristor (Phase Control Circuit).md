@@ -32,17 +32,17 @@ A NPN transistor ($$Q_{2}$$)
 
 The equations describing the currents in the model are:
 
-$$I_A = I_{C1} + I_{B1} = \alpha_1 I_A + I_{G} + I_{CO1}$$
+$$I_A = I_{C1} + I_{B1} = \alpha_1 I_A + I_{G} + I_{CO1}$$     (1)
 
-$$I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}$$
+$$I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}$$     (2)
 
 Where:
 
-$$\alpha_1$$, $$\alpha_2$$ are the common base current gains of $$Q_{1}$$ and $$Q_{2}$$. $$I_{CO1}$$ and $$I_{CO2}$$ are the leakage currents
+$$\alpha_1$$, $$\alpha_2$$ are the common base current gains of $$Q_{1}$$ and $$Q_{2}$$. $$I_{CO1}$$ and $$I_{CO2}$$ are the leakage currents.
 
 Combining both equations:
 
-$$I_A = \frac{I_G + I_{CO1} + I_{CO2}}{1 - (\alpha_1 + \alpha_2)}$$
+$$I_A = \frac{I_G + I_{CO1} + I_{CO2}}{1 - (\alpha_1 + \alpha_2)}$$     (3)
 
 Engagement condition: When ($$\alpha_1 + \alpha_2$$) -> 1, the current $$I_{A}$$ tends to infinity and the thyristor enters conduction [1] & [2].
 
