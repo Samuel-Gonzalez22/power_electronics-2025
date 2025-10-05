@@ -10,14 +10,42 @@ Figure 1. Thyristor symbol
 The thyristor functions as a controlled electronic switch. Under normal conditions, when a positive voltage is applied between the anode and cathode, the device remains in a blocking state because one of its internal junctions is reverse biased. In this state, only a very small leakage current flows. The transition from the blocking state to the conducting state is achieved by applying a current pulse to the gate. This pulse activates the device internally and causes all its junctions to conduct, allowing a high current to flow from the anode to the cathode. Once turned on, the thyristor remains in conduction even if the gate signal is removed. It will only return to the blocking state when the current flowing through it decreases below a value called the holding current or when the anode-cathode voltage changes polarity (as occurs naturally in alternating current). Thanks to this latching behavior, the thyristor is used in systems where control over switching on is required, but not necessarily over switching off, which is produced by the conditions of the circuit [1].
 ### Layer Structure (P-N-P-N)
 The thyristor consists of four alternating layers of semiconductor material (P-N-P-N), forming three P-N junctions: 
+
 The structure has three terminals:
+
 Anode (A): Connected to the outer P layer
+
 Cathode (K): Connected to the outer N layer
+
 Gate (G): Connected to the inner P layer
+
+![Physical structure of thyristor](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/671fb5b4576a3b27cd0d6ca9a4f18593e470cd6b/Module%204%20-%20Thyristor%20(Phase%20Control%20Circuit)/Images/Physical%20structure%20of%20thyristor.png)
+
+Figure 2. Physical structure of thyristor
+
 ### Two-Transistor Model
 The behavior of the thyristor can be analyzed using an equivalent model of two transistors interconnected in positive feedback. The thyristor can be represented as:
+
 A PNP transistor (Q_{1})
+
 A NPN transistor (Q_{2})
+
+The equations describing the currents in the model are:
+
+IA=IC1+IB1=α1IA+IG+ICO1I_A = I_{C1} + I_{B1} = \alpha_1 I_A + I_{G} + I_{CO1}IA​=IC1​+IB1​=α1​IA​+IG​+ICO1​
+
+IA=IC2+IB2=α2IA+ICO2I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}IA​=IC2​+IB2​=α2​IA​+ICO2​
+
+Where:
+
+α₁, α₂ are the common base current gains of Q₁ and Q₂
+I_CO1, I_CO2 are the leakage currents
+
+Combining both equations:
+
+IA=IG+ICO1+ICO21−(α1+α2)I_A = \frac{I_G + I_{CO1} + I_{CO2}}{1 - (\alpha_1 + \alpha_2)}IA​=1−(α1​+α2​)IG​+ICO1​+ICO2​​
+
+Engagement condition: When (α₁ + α₂) → 1, the current I_A tends to infinity and the thyristor enters conduction [1].
 
 ## Thyristors types
 Depending on the physical construction, and turn-on	and	turn-off behavior, thyristors	can	be broadly classified into 13 categories:
