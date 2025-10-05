@@ -8,6 +8,16 @@ Figure 1. Thyristor symbol
 
 ## Operating principle
 The thyristor functions as a controlled electronic switch. Under normal conditions, when a positive voltage is applied between the anode and cathode, the device remains in a blocking state because one of its internal junctions is reverse biased. In this state, only a very small leakage current flows. The transition from the blocking state to the conducting state is achieved by applying a current pulse to the gate. This pulse activates the device internally and causes all its junctions to conduct, allowing a high current to flow from the anode to the cathode. Once turned on, the thyristor remains in conduction even if the gate signal is removed. It will only return to the blocking state when the current flowing through it decreases below a value called the holding current or when the anode-cathode voltage changes polarity (as occurs naturally in alternating current). Thanks to this latching behavior, the thyristor is used in systems where control over switching on is required, but not necessarily over switching off, which is produced by the conditions of the circuit [1].
+### Layer Structure (P-N-P-N)
+The thyristor consists of four alternating layers of semiconductor material (P-N-P-N), forming three P-N junctions: 
+The structure has three terminals:
+Anode (A): Connected to the outer P layer
+Cathode (K): Connected to the outer N layer
+Gate (G): Connected to the inner P layer
+### Two-Transistor Model
+The behavior of the thyristor can be analyzed using an equivalent model of two transistors interconnected in positive feedback. The thyristor can be represented as:
+A PNP transistor (Q_{1})
+A NPN transistor (Q_{2})
 
 ## Thyristors types
 Depending on the physical construction, and turn-on	and	turn-off behavior, thyristors	can	be broadly classified into 13 categories:
