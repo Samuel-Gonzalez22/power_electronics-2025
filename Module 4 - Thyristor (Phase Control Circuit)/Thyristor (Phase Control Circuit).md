@@ -11,6 +11,10 @@ The thyristor functions as a controlled electronic switch. Under normal conditio
 ### Layer Structure (P-N-P-N)
 The thyristor consists of four alternating layers of semiconductor material (P-N-P-N), forming three P-N junctions: 
 
+![Physical structure of thyristor](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/671fb5b4576a3b27cd0d6ca9a4f18593e470cd6b/Module%204%20-%20Thyristor%20(Phase%20Control%20Circuit)/Images/Physical%20structure%20of%20thyristor.png)
+
+Figure 2. Physical structure of thyristor
+
 The structure has three terminals:
 
 Anode (A): Connected to the outer P layer
@@ -18,10 +22,6 @@ Anode (A): Connected to the outer P layer
 Cathode (K): Connected to the outer N layer
 
 Gate (G): Connected to the inner P layer
-
-![Physical structure of thyristor](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/671fb5b4576a3b27cd0d6ca9a4f18593e470cd6b/Module%204%20-%20Thyristor%20(Phase%20Control%20Circuit)/Images/Physical%20structure%20of%20thyristor.png)
-
-Figure 2. Physical structure of thyristor
 
 ### Two-Transistor Model
 The behavior of the thyristor can be analyzed using an equivalent model of two transistors interconnected in positive feedback. The thyristor can be represented as:
@@ -32,20 +32,20 @@ A NPN transistor (Q_{2})
 
 The equations describing the currents in the model are:
 
-IA=IC1+IB1=α1IA+IG+ICO1I_A = I_{C1} + I_{B1} = \alpha_1 I_A + I_{G} + I_{CO1}IA​=IC1​+IB1​=α1​IA​+IG​+ICO1​
+$$I_A = I_{C1} + I_{B1} = \alpha_1 I_A + I_{G} + I_{CO1}$$
 
-IA=IC2+IB2=α2IA+ICO2I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}IA​=IC2​+IB2​=α2​IA​+ICO2​
+$$I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}$$
 
 Where:
 
-α₁, α₂ are the common base current gains of Q₁ and Q₂
-I_CO1, I_CO2 are the leakage currents
+$$\alpha_1$$, $$\alpha_2$$ are the common base current gains of $$Q_{1}$$ and $$Q_{2}$$
+$$I_{CO1}$$, $$I_{CO2}$$ are the leakage currents
 
 Combining both equations:
 
-IA=IG+ICO1+ICO21−(α1+α2)I_A = \frac{I_G + I_{CO1} + I_{CO2}}{1 - (\alpha_1 + \alpha_2)}IA​=1−(α1​+α2​)IG​+ICO1​+ICO2​​
+$$I_A = \frac{I_G + I_{CO1} + I_{CO2}}{1 - (\alpha_1 + \alpha_2)}$$
 
-Engagement condition: When (α₁ + α₂) → 1, the current I_A tends to infinity and the thyristor enters conduction [1].
+Engagement condition: When ($$\alpha_1 + \alpha_2$$) -> 1, the current $$I_{A}$$ tends to infinity and the thyristor enters conduction [1] & [2].
 
 ## Thyristors types
 Depending on the physical construction, and turn-on	and	turn-off behavior, thyristors	can	be broadly classified into 13 categories:
