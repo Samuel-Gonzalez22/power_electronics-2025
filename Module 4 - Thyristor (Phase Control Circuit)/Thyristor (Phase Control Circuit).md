@@ -26,9 +26,9 @@ Gate (G): Connected to the inner P layer
 ### Two-Transistor Model
 The behavior of the thyristor can be analyzed using an equivalent model of two transistors interconnected in positive feedback. The thyristor can be represented as:
 
-A PNP transistor (Q_{1})
+A PNP transistor ($$Q_{1}$$)
 
-A NPN transistor (Q_{2})
+A NPN transistor ($$Q_{2}$$)
 
 The equations describing the currents in the model are:
 
@@ -38,8 +38,7 @@ $$I_A = I_{C2} + I_{B2} = \alpha_2 I_A + I_{CO2}$$
 
 Where:
 
-$$\alpha_1$$, $$\alpha_2$$ are the common base current gains of $$Q_{1}$$ and $$Q_{2}$$
-$$I_{CO1}$$, $$I_{CO2}$$ are the leakage currents
+$$\alpha_1$$, $$\alpha_2$$ are the common base current gains of $$Q_{1}$$ and $$Q_{2}$$. $$I_{CO1}$$ and $$I_{CO2}$$ are the leakage currents
 
 Combining both equations:
 
@@ -64,7 +63,7 @@ Depending on the physical construction, and turn-on	and	turn-off behavior, thyri
 13. Static induction thyristors (SITHs) [1]
 
 ## Applications
-Thyristors are widely used in electrical and industrial systems due to their ability to handle high currents and voltages with great efficiency. One of their most common applications is in controlled rectifiers, where they convert alternating current into direct current by regulating the output voltage level. They are also essential in the control of electric motors, as they facilitate smooth starts and speed variation in industrial processes. In the field of power transmission, thyristors play a key role in high-voltage direct current (HVDC) systems, which are used to transport large amounts of energy over long distances with fewer losses. They are also used in industrial furnaces such as induction and electric arc furnaces, where they control the power supplied for smelting and heating processes. In more everyday applications, they are used to regulate lighting through dimmers, as well as in electric heating systems. They have also been very important in the transportation sector, particularly in trains, trams, and subways, to control the power of traction motors. Even in the field of renewable energy, thyristors are used in power conversion and control equipment in solar and wind systems, demonstrating their versatility and relevance in the world of power electronics [1] [2].
+Thyristors are widely used in electrical and industrial systems due to their ability to handle high currents and voltages with great efficiency. One of their most common applications is in controlled rectifiers, where they convert alternating current into direct current by regulating the output voltage level. They are also essential in the control of electric motors, as they facilitate smooth starts and speed variation in industrial processes. In the field of power transmission, thyristors play a key role in high-voltage direct current (HVDC) systems, which are used to transport large amounts of energy over long distances with fewer losses. They are also used in industrial furnaces such as induction and electric arc furnaces, where they control the power supplied for smelting and heating processes. In more everyday applications, they are used to regulate lighting through dimmers, as well as in electric heating systems. They have also been very important in the transportation sector, particularly in trains, trams, and subways, to control the power of traction motors. Even in the field of renewable energy, thyristors are used in power conversion and control equipment in solar and wind systems, demonstrating their versatility and relevance in the world of power electronics [1] & [2].
 
 ## Bibliography
 [1] M. H. Rashid, Power electronics: Devices, circuits, and applications, international edition, 4/E. Pearson, 2014.
