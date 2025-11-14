@@ -1,10 +1,15 @@
 # Controlled Rectifier
 ## Introduction
-A DC-DC converter is an electronic device characterized by its ability to alter the voltage of direct current (DC) between different values. This is valuable in many situations, as often different elements within a single electronic device require various voltage levels to operate correctly. Thus, converters have the ability to increase, reduce, or reverse the voltage as required. Unlike an AC-DC converter, which transforms alternating current (AC) from the electrical grid into direct current (DC), the DC-DC converter works exclusively with direct current, modifying its voltage as necessary. DC-DC converters are composed of inductors, capacitors, diodes, and transistors, along with pulse width modulation techniques to achieve efficient energy conversion. In this way, they operate as follows: the duty cycle of the input signal is modulated, and the converter regulates the ratio between the time it is activated and deactivated, allowing the desired output to be controlled [1]. 
+It is an electronic device that converts direct current (DC) into alternating current (AC). To perform this conversion, it uses a diode bridge circuit, generating greater efficiency than other types of inverters, which is why single-phase inverters are less complex than three-phase inverters [1]. 
 
-## Operation and applications
-DC-DC converters are composed of inductors, capacitors, diodes, and transistors, along with pulse width modulation techniques to achieve efficient energy conversion. In this way, they operate as follows: the duty cycle of the input signal is modulated, and the converter regulates the ratio between the time it is activated and deactivated, allowing the desired output to be controlled. It is widely used in power electronics, the renewable energy sector, communication systems, and the automotive industry. [1].
+## Principle of operation
+This type of inverter consists of four choppers. When transistors Q1 and Q2 are turned on simultaneously, the input voltage Vs appears across the load. If transistors Q3 and Q4 are turned on at the same time, the voltage across the load is reversed and is -Vs.
+Transistors Q1, Q4 act as the switching devices S1 and S4, respectively. If two switches: one upper and one lower conduct at the same time such that the output voltage is {Vs, the switch state is 1, where as if these switches are off at the same time, the switch state is 0. [2].
+Table 1 shows the five switch states
 
+![Switch states for a SPFBI](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/d24aba91fb4536529846236556988aba849b018b/Module%206%20-%20Single-Phase%20Full-Bridge%20Inverter/Images/Switch%20states%20for%20a%20SPFBI.png)
+
+Table 1. Switch states for a SPFBI
 
 ### Configurations
 
