@@ -1,5 +1,5 @@
 # Single-Phase Full-Bridge Inverter
-## Introduction
+## Definition
 It is an electronic device that converts direct current (DC) into alternating current (AC). To perform this conversion, it uses a diode bridge circuit, generating greater efficiency than other types of inverters, which is why single-phase inverters are less complex than three-phase inverters [1]. 
 
 ## Principle of operation
@@ -42,7 +42,7 @@ Figure 2 shows the schematic diagram of the inverter, mounted on the Proteus sim
 
 ![Schematic diagram](https://github.com/Samuel-Gonzalez22/power_electronics-2025/blob/e1e92839a5379cc31468feea4cc1fe5fac2cd503/Module%206%20-%20Single-Phase%20Full-Bridge%20Inverter/Images/Schematic%20Diagram.png)
 
-Figure 2. Schematic diagram 
+Figure 2. Proteus model of the whole circuit [3]
 
 ## Bibliography
 [1] Powerelectronicsnews.com. [En línea]. Disponible en: https://www.powerelectronicsnews.com/power-electronics-course-part-10-the-single-phase-full-bridge-inverter/. 
